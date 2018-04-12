@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -47,6 +48,9 @@
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="y1J-kn-Ggj" kind="show" id="vzv-Rf-7A7"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="dIf-H6-lRa">
                                 <rect key="frame" x="128" y="40" width="119" height="20"/>
@@ -150,12 +154,25 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Vji-ce-cTz" kind="show" id="DJn-Py-Qta"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nu4-rh-Ipa">
+                                <rect key="frame" x="0.0" y="30" width="53" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="53" id="3jS-0P-BDJ"/>
+                                    <constraint firstAttribute="height" constant="27" id="s8Q-bf-xDy"/>
+                                </constraints>
+                                <state key="normal" image="backButton"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Kvg-nF-dtQ" firstAttribute="centerX" secondItem="dW7-Cl-Zu5" secondAttribute="centerX" id="1d4-Hp-27A"/>
+                            <constraint firstItem="nu4-rh-Ipa" firstAttribute="leading" secondItem="Rhw-co-zkI" secondAttribute="leading" id="AK7-bg-kXe"/>
                             <constraint firstItem="1PP-jv-csf" firstAttribute="trailing" secondItem="Rhw-co-zkI" secondAttribute="trailing" id="ALd-AY-EMD"/>
+                            <constraint firstItem="nu4-rh-Ipa" firstAttribute="top" secondItem="dW7-Cl-Zu5" secondAttribute="topMargin" constant="10" id="DYQ-Nz-DnJ"/>
                             <constraint firstItem="XGq-g8-BSL" firstAttribute="leading" secondItem="Rhw-co-zkI" secondAttribute="leading" id="IgS-xe-8co"/>
                             <constraint firstItem="iff-yk-opG" firstAttribute="leading" secondItem="Rhw-co-zkI" secondAttribute="leading" id="JeQ-Bs-gD5"/>
                             <constraint firstItem="Kvg-nF-dtQ" firstAttribute="top" secondItem="Rhw-co-zkI" secondAttribute="top" constant="20" id="JuD-Hi-fzB"/>
@@ -226,14 +243,26 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgH-s6-EaE">
+                                <rect key="frame" x="0.0" y="10" width="53" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="GF0-d3-bmb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="53" id="H3V-hw-2x7"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="JwO-LQ-ahh"/>
+                                    <constraint firstAttribute="width" constant="53" id="TNR-wj-Q2w"/>
+                                </constraints>
+                                <state key="normal" image="backButton"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="L79-3W-5rE" firstAttribute="leading" secondItem="wAc-WX-krk" secondAttribute="leading" id="9Ca-GF-haU"/>
                             <constraint firstItem="wAc-WX-krk" firstAttribute="trailing" secondItem="L79-3W-5rE" secondAttribute="trailing" id="Ebb-3U-nw5"/>
+                            <constraint firstItem="hgH-s6-EaE" firstAttribute="top" secondItem="Ckh-Ni-sJY" secondAttribute="top" constant="10" id="Fgw-fs-d1R"/>
                             <constraint firstItem="LJC-e3-5fY" firstAttribute="top" secondItem="wAc-WX-krk" secondAttribute="top" constant="20" id="G8L-ph-x59"/>
                             <constraint firstItem="LJC-e3-5fY" firstAttribute="centerX" secondItem="Ckh-Ni-sJY" secondAttribute="centerX" id="UHq-y5-XoY"/>
                             <constraint firstItem="c7V-ch-uxF" firstAttribute="top" secondItem="LJC-e3-5fY" secondAttribute="bottom" constant="30" id="ULa-U7-1vm"/>
+                            <constraint firstItem="hgH-s6-EaE" firstAttribute="leading" secondItem="wAc-WX-krk" secondAttribute="leading" id="jqo-OQ-cgp"/>
                             <constraint firstItem="L79-3W-5rE" firstAttribute="top" secondItem="c7V-ch-uxF" secondAttribute="bottom" constant="50" id="p84-0Y-k5h"/>
                             <constraint firstItem="vHS-BF-hvA" firstAttribute="centerX" secondItem="Ckh-Ni-sJY" secondAttribute="centerX" id="w6e-RI-X6S"/>
                         </constraints>
@@ -246,6 +275,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backButton" width="29" height="24"/>
         <image name="beginnerBallerBG" width="414" height="736"/>
         <image name="desiredLeagueBG" width="414" height="736"/>
         <image name="swooshLogo" width="119" height="20"/>
