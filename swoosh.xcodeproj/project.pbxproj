@@ -10,6 +10,7 @@
 		D34B6329207F1034007C4B2B /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B6328207F1034007C4B2B /* BorderButton.swift */; };
 		D34B6369207FC239007C4B2B /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B6368207FC239007C4B2B /* LeagueVC.swift */; };
 		D34B636B207FC24B007C4B2B /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B636A207FC24B007C4B2B /* SkillVC.swift */; };
+		D34B636D207FDB75007C4B2B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B636C207FDB75007C4B2B /* Player.swift */; };
 		D38D57D6207F067100D4584A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D57D5207F067100D4584A /* AppDelegate.swift */; };
 		D38D57D8207F067100D4584A /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D57D7207F067100D4584A /* WelcomeVC.swift */; };
 		D38D57DB207F067100D4584A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38D57D9207F067100D4584A /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		D34B6328207F1034007C4B2B /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		D34B6368207FC239007C4B2B /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		D34B636A207FC24B007C4B2B /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		D34B636C207FDB75007C4B2B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		D38D57D2207F067000D4584A /* swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38D57D5207F067100D4584A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D38D57D7207F067100D4584A /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		D34B6366207FC130007C4B2B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D34B636C207FDB75007C4B2B /* Player.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38D57D8207F067100D4584A /* WelcomeVC.swift in Sources */,
+				D34B636D207FDB75007C4B2B /* Player.swift in Sources */,
 				D34B6369207FC239007C4B2B /* LeagueVC.swift in Sources */,
 				D38D57D6207F067100D4584A /* AppDelegate.swift in Sources */,
 				D34B636B207FC24B007C4B2B /* SkillVC.swift in Sources */,
