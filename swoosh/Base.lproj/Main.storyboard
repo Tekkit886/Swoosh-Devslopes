@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="141.59999999999999" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="NRc-a8-L8a">
             <objects>
-                <viewController id="y1J-kn-Ggj" sceneMemberID="viewController">
+                <viewController id="y1J-kn-Ggj" customClass="LeagueVC" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dW7-Cl-Zu5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,9 +154,6 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="Vji-ce-cTz" kind="show" id="DJn-Py-Qta"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nu4-rh-Ipa">
                                 <rect key="frame" x="0.0" y="30" width="53" height="27"/>
@@ -193,10 +190,10 @@
             </objects>
             <point key="canvasLocation" x="938.39999999999998" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="MRB-kn-gkP">
             <objects>
-                <viewController id="Vji-ce-cTz" sceneMemberID="viewController">
+                <viewController id="Vji-ce-cTz" customClass="SkillVC" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ckh-Ni-sJY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
